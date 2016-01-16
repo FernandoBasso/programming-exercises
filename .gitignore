@@ -1,0 +1,27 @@
+#
+# Let's assume C/C++ executables are compiled into `bin/` directories.
+#
+bin/
+
+#
+# Java `.class` files.
+#
+class/
+
+#
+# Let's ignore html files. People can generate them locally.
+#
+*.html
+
+#
+# My own local reminders.
+#
+my-todo.txt
+
+#
+# For now, let's just ignore .css files since those who generate the
+# html versions will also have their css files generated.
+# 
+*.css
+
+

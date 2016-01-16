@@ -1,0 +1,19 @@
+= Iterator
+
+Create an “iterator”. It is a function that you call passing it an array.
+It returns a function which in turn, each time is called, return one of
+the elements of the array, starting with the first, until all elements
+have been returned, in which case it just returns false from that point on.
+
+
+Example of its input and output.
+
+[source,javascript,lineos]
+----
+var it = iterator('a b c'.split(' '));
+it();   // →  a
+it();   // →  b
+it();   // →  c
+it();   // →  false
+it();   // →  false, always false from now on.
+----

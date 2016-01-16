@@ -1,0 +1,30 @@
+= Programming Exercises
+
+
+== About These Programming Exercises
+
+Programming exercises, ranging from algorithms to small projects that require
+a specific set of skills and knowledge.
+
+The goal is to implement the exercises in any conceivable language that
+one may be interested in (this includes Bash, Sed, Awk, C, Scheme, Perl, etc).
+
+Of course, some exercises will not make much sense in some languages and
+therefore not all exercises are to be implemented in all languages. It is up to
+the person doing the exercises to decide about that.
+
+== Exercises Instructions
+
+Each exercise is described into a directory named in a way that tries to
+resemble what the exercises is about. Some are easier and short, but some
+would require a long directory name, and therefore should be shortened
+somehow. Examples are `palindrome`, `recurs-sum` or `rev-str`.
+
+
+== Compiled Files
+
+Never commit compiled files. The `.gitignore` file contains some ignored
+directories where compiled files for some languages can be put into as
+to avoid accidental committing of such files.
+
+
