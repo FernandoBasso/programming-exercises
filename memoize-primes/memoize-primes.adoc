@@ -1,0 +1,10 @@
+= Memoizing Primes
+
+Create a function that receives a number and checks whether it is a prime
+number or not. You must use _memoization_ for that, though.
+
+Every time the function is called, you check in some form of “local cache” if
+that number has been checked before. If it has, just returns true/false
+according to its primeness. Otherwise, check if it is prime, store the result
+in the cache, and return the result.
+
