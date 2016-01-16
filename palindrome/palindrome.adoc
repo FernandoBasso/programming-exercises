@@ -1,0 +1,13 @@
+= Palindrome
+
+Given a string or characters, return true or false depending whether the
+string is a palindrome or not. The algorithm is free to consider uppercase
+letters or not, that is, ‘ana’ is a palindrome, but depending on your
+algorithm's implementation ‘Ana’ may or may not be considered a palindrome.
+
+
+Thinking recursively, we can say that:
+1. A single or zero-character string is a palindrome.
+2. Any other string is a palindrome if the first and last characters are the
+   same and the string that remains (excepting those characters) is a palindrome.
+
