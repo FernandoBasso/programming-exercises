@@ -20,6 +20,12 @@ resemble what the exercises is about. Some are easier and short, but some
 would require a long directory name, and therefore should be shortened
 somehow. Examples are `palindrome`, `recurs-sum` or `rev-str`.
 
+When exercises require input data, it is up to the programmer to decide if
+input data should be validated or not. A sum function may expect N numbers.
+You may check if they are really numbers or not. That is up to the programmer.
+The programmer may also opt for writing a version that checks input, and another
+that does not and mainly focus on the logic required to perform the computation.
+
 
 == Compiled Files
 
