@@ -1,10 +1,9 @@
 = Programming Exercises
 
-
-== About These Programming Exercises
-
 Programming exercises, ranging from algorithms to small projects that require
 a specific set of skills and knowledge.
+
+== About These Programming Exercises
 
 The goal is to implement the exercises in any conceivable language that
 one may be interested in (this includes Bash, Sed, Awk, C, Scheme, Perl, etc).
